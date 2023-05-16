@@ -1,0 +1,103 @@
+/* Estilos para la barra de menú */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5px;
+    margin:1.5px;
+}
+nav {
+background-color: #318c5a;
+overflow: hidden;
+border-radius: 7px;
+}
+nav a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    background-color: #20b995;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    
+}
+
+div{ 
+    text-align: center;  
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+
+
+}
+h1{
+    font-size: 40px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .video-container video {
+    border-radius: 50px;
+
+  }
+
+/*Texto revelado*/
+.container {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 400%;
+    overflow: hidden;
+  }
+  
+  .content {
+    opacity: 0;
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /*redes sociales*/
+  footer{
+    background-color: #318c5a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+  }
+  
+  .social-links img {
+    width: 32px;
+    height: 32px;
+  }
+  
